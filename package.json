@@ -1,0 +1,75 @@
+{
+  "name": "metacare.ai",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@lit-protocol/auth-browser": "^5.1.0",
+    "@lit-protocol/lit-node-client": "^5.1.0",
+    "@lit-protocol/sev-snp-utils-sdk": "^5.1.0",
+    "@lit-protocol/types": "^4.1.1",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@web3-onboard/coinbase": "^2.2.7",
+    "@web3-onboard/core": "^2.21.6",
+    "@web3-onboard/injected-wallets": "^2.10.17",
+    "@web3-onboard/ledger": "^2.6.0",
+    "@web3-onboard/react": "^2.8.17",
+    "@web3-storage/w3up-client": "^13.1.1",
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "crypto-browserify": "^3.12.0",
+    "friendly-challenge": "^0.9.12",
+    "https-browserify": "^1.0.0",
+    "lit-share-modal-v3": "^0.0.96",
+    "multiformats": "^13.1.1",
+    "os-browserify": "^0.3.0",
+    "papaparse": "^5.4.1",
+    "pdfjs-dist": "^4.2.67",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-router-dom": "^6.14.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "5.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3",
+    "uuid": "^9.0.1",
+    "vm-browserify": "^1.1.2",
+    "w3name": "^1.0.8",
+    "web-vitals": "^2.1.4",
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "7.24.3",
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+    "react-app-rewired": "^2.2.1"
+  }
+}
